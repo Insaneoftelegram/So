@@ -2,7 +2,7 @@ from AM.core.bot import AnonXBot
 from AM.core.dir import dirr
 from AM.core.git import git
 from AM.core.userbot import Userbot
-from AM.misc import dbb, heroku
+from AM.misc import dbb, heroku, sudo
 
 from .logging import LOGGER
 
@@ -14,6 +14,8 @@ git()
 dbb()
 
 heroku()
+
+sudo()
 
 # Clients
 app = AnonXBot()
